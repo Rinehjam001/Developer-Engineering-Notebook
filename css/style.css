@@ -1,0 +1,55 @@
+body {
+    background-color: white;
+}
+.title {
+    text-align: center;
+}
+table.center {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+table.center td {
+    border: 1px solid black;
+    font-size: 150%;
+}
+.linklist {
+    display: inline-block;
+}
+.linklist a::after {
+    display: inline-block;
+    content: ">";
+    color: black;
+    font-weight: bold;
+    padding: 0 3px;
+}
+.top {
+    background-color: gray;
+    padding: auto;
+}
+.top h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: lightblue;
+    font-size: 300%;
+    margin: 0px;
+}
+.navcap {
+    padding: 0px;
+    margin: 0px;
+    height: 50px;
+}
+.navlist {
+    display: inline-block;
+    height: 50px;
+    justify-content: center;
+    align-content: center;
+    overflow: hidden;
+}
+.navlist a {
+    padding: 80px;
+}
+.navlist a:hover {
+    background-color: rgb(48, 48, 48);
+}
