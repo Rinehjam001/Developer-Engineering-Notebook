@@ -49,7 +49,25 @@ table.center td {
 }
 .navlist a {
     padding: 80px;
+    font-weight: bold;
+    text-decoration: solid;
+    color: aliceblue;
+    font-size: large;
 }
 .navlist a:hover {
     background-color: rgb(48, 48, 48);
+}
+.index {
+    background-image: url(https://developer.valvesoftware.com/w/images/thumb/8/8b/Debugempty.png/200px-Debugempty.png);
+}
+.backdrop {
+    background: rgba(255, 255, 255, 0.5);
+}
+.backdrop p, .backdrop li {
+    font-size: larger;
+}
+#timefill:: {
+    font-weight: bolder;
+    font-size: x-large;
+    font-style: italic;
 }
